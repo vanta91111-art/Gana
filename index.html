@@ -1,0 +1,1957 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>عيد ميلاد جنى ❤️</title>
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+
+<style>
+
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    background: #fff5fa;
+    color: #351827;
+    overflow-x: hidden;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 20px auto;
+
+    padding: 14px 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: rgba(255,255,255,0.85);
+
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255,105,160,0.2);
+
+    border-radius: 50px;
+
+    box-shadow:
+        0 10px 40px rgba(255,91,145,0.12);
+}
+
+
+/* LOGO */
+
+.logo {
+    color: #e83e82;
+
+    font-size: 19px;
+
+    font-weight: 800;
+
+    white-space: nowrap;
+}
+
+.logo span {
+    font-size: 25px;
+}
+
+
+/* NAV LINKS */
+
+.nav-links {
+    display: flex;
+
+    gap: 35px;
+
+    list-style: none;
+}
+
+.nav-links a {
+
+    text-decoration: none;
+
+    color: #4b2638;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    position: relative;
+
+    transition: 0.3s;
+}
+
+.nav-links a::after {
+
+    content: "";
+
+    position: absolute;
+
+    right: 0;
+
+    bottom: -7px;
+
+    width: 0;
+
+    height: 2px;
+
+    background: #f04d91;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+
+    color: #e83e82;
+}
+
+.nav-links a:hover::after {
+
+    width: 100%;
+}
+
+
+/* HEART BUTTON */
+
+.heart-btn {
+
+    width: 43px;
+    height: 43px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #f34f91;
+
+    color: white;
+
+    font-size: 19px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.heart-btn:hover {
+
+    transform:
+        scale(1.15)
+        rotate(10deg);
+
+    box-shadow:
+        0 10px 25px
+        rgba(243,79,145,0.4);
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 140px 20px 80px;
+
+    position: relative;
+
+    background:
+
+        radial-gradient(
+            circle at 20% 20%,
+            #ffd2e5,
+            transparent 30%
+        ),
+
+        radial-gradient(
+            circle at 80% 80%,
+            #ffc3dd,
+            transparent 30%
+        ),
+
+        #fff5fa;
+}
+
+
+.hero-content {
+
+    max-width: 850px;
+
+    z-index: 2;
+}
+
+
+.small-title {
+
+    color: #ed4a8c;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: 3px;
+
+    display: block;
+
+    margin-bottom: 18px;
+}
+
+
+.hero h1 {
+
+    font-size:
+        clamp(45px, 7vw, 85px);
+
+    line-height: 1.15;
+
+    font-weight: 900;
+}
+
+
+.hero h1 span {
+
+    display: block;
+
+    background:
+        linear-gradient(
+            90deg,
+            #e62f78,
+            #ff82b5
+        );
+
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+
+.hero p {
+
+    max-width: 650px;
+
+    margin: 25px auto 35px;
+
+    color: #795568;
+
+    line-height: 2;
+
+    font-size: 16px;
+}
+
+
+/* MAIN BUTTON */
+
+.main-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 15px 28px;
+
+    background: #ed4c8c;
+
+    color: white;
+
+    border-radius: 40px;
+
+    text-decoration: none;
+
+    font-weight: 700;
+
+    box-shadow:
+        0 15px 35px
+        rgba(237,76,140,0.3);
+
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 20px 45px
+        rgba(237,76,140,0.4);
+}
+
+
+/* HERO HEART */
+
+.hero-decoration {
+
+    position: absolute;
+
+    left: 10%;
+
+    bottom: 15%;
+}
+
+.big-heart {
+
+    font-size: 170px;
+
+    color:
+        rgba(255,82,145,0.08);
+
+    animation:
+        heartbeat 2s infinite;
+}
+
+
+/* SPARKLES */
+
+.sparkle {
+
+    position: absolute;
+
+    color: #f34f91;
+
+    font-size: 30px;
+
+    animation:
+        sparkle 2s infinite alternate;
+}
+
+.s1 {
+    top: 0;
+    right: -40px;
+}
+
+.s2 {
+    top: 70px;
+    left: -20px;
+}
+
+.s3 {
+    bottom: -20px;
+    right: 50px;
+}
+
+
+/* =========================
+   MEMORIES
+========================= */
+
+.memories {
+
+    padding: 110px 7%;
+
+    background: white;
+}
+
+
+.section-title {
+
+    text-align: center;
+
+    max-width: 750px;
+
+    margin: auto;
+}
+
+
+.section-title > span {
+
+    color: #ef4c8e;
+
+    font-size: 12px;
+
+    letter-spacing: 3px;
+
+    font-weight: 800;
+}
+
+
+.section-title h2 {
+
+    font-size: 45px;
+
+    margin: 12px 0;
+
+    font-weight: 800;
+}
+
+
+.section-title strong {
+
+    color: #ef4c8e;
+}
+
+
+.section-title p {
+
+    color: #876b78;
+}
+
+
+/* PHOTO CONTAINER */
+
+.photo-container {
+
+    max-width: 1050px;
+
+    margin: 60px auto 0;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 35px;
+}
+
+
+/* PHOTO CARD */
+
+.photo-card {
+
+    padding: 15px;
+
+    background: #fff7fb;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 20px 50px
+        rgba(82,22,48,0.08);
+
+    transition: 0.4s;
+}
+
+
+.photo-card.second {
+
+    transform:
+        translateY(40px);
+}
+
+
+.photo-card:hover {
+
+    transform:
+        translateY(-12px)
+        rotate(-1deg);
+}
+
+
+.photo-card.second:hover {
+
+    transform:
+        translateY(25px)
+        rotate(1deg);
+}
+
+
+/* PHOTO */
+
+.photo-frame {
+
+    height: 390px;
+
+    overflow: hidden;
+
+    border-radius: 18px;
+
+    position: relative;
+
+    background: #ffd9e8;
+}
+
+
+.photo-frame img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: 0.6s;
+}
+
+
+.photo-card:hover img {
+
+    transform: scale(1.08);
+}
+
+
+/* PHOTO OVERLAY */
+
+.photo-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background:
+        rgba(239,76,142,0.45);
+
+    opacity: 0;
+
+    transition: 0.4s;
+}
+
+
+.photo-overlay span {
+
+    font-size: 65px;
+
+    color: white;
+
+    animation:
+        heartbeat 1.2s infinite;
+}
+
+
+.photo-card:hover
+.photo-overlay {
+
+    opacity: 1;
+}
+
+
+.photo-card h3 {
+
+    margin:
+        18px 5px 5px;
+
+    font-size: 21px;
+}
+
+
+.photo-card p {
+
+    margin-right: 5px;
+
+    color: #96717f;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   MESSAGE
+========================= */
+
+.message-section {
+
+    padding: 130px 20px;
+
+    background:
+
+        radial-gradient(
+            circle at center,
+            #ffd7e7,
+            transparent 60%
+        ),
+
+        #fff1f7;
+}
+
+
+.message-card {
+
+    max-width: 850px;
+
+    margin: auto;
+
+    padding: 65px;
+
+    text-align: center;
+
+    background:
+        rgba(255,255,255,0.78);
+
+    border:
+        1px solid white;
+
+    border-radius: 35px;
+
+    box-shadow:
+        0 30px 80px
+        rgba(88,22,51,0.1);
+
+    backdrop-filter: blur(20px);
+}
+
+
+/* ICON */
+
+.message-icon {
+
+    width: 65px;
+    height: 65px;
+
+    display: grid;
+
+    place-items: center;
+
+    margin: auto;
+
+    border-radius: 50%;
+
+    background: #ffdeeb;
+
+    color: #ed4c8c;
+
+    font-size: 35px;
+}
+
+
+.message-label {
+
+    display: block;
+
+    margin-top: 25px;
+
+    color: #ed4c8c;
+
+    font-size: 11px;
+
+    letter-spacing: 3px;
+
+    font-weight: 800;
+}
+
+
+.message-card h2 {
+
+    margin: 12px 0;
+
+    font-size: 42px;
+
+    font-weight: 800;
+}
+
+
+.line {
+
+    width: 60px;
+
+    height: 3px;
+
+    margin:
+        20px auto 35px;
+
+    background: #ed4c8c;
+
+    border-radius: 10px;
+}
+
+
+.message-card p {
+
+    max-width: 680px;
+
+    margin: 16px auto;
+
+    line-height: 2;
+
+    color: #745466;
+
+    font-size: 16px;
+}
+
+
+.special-text {
+
+    color: #e53d7d !important;
+
+    font-weight: 800;
+
+    font-size: 18px !important;
+}
+
+
+.signature {
+
+    margin-top: 35px;
+
+    color: #96707f;
+
+    font-size: 18px;
+}
+
+
+.signature strong {
+
+    display: block;
+
+    color: #e83e82;
+
+    font-size: 26px;
+
+    margin-top: 5px;
+}
+
+
+/* =========================
+   FINAL SECTION
+========================= */
+
+.final {
+
+    min-height: 60vh;
+
+    display: grid;
+
+    place-items: center;
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background: #ff4f91;
+
+    color: white;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+.final::before,
+.final::after {
+
+    content: "♥";
+
+    position: absolute;
+
+    font-size: 300px;
+
+    color:
+        rgba(255,255,255,0.07);
+}
+
+
+.final::before {
+
+    right: -100px;
+}
+
+
+.final::after {
+
+    left: -100px;
+}
+
+
+.final-content {
+
+    z-index: 2;
+}
+
+
+.crown {
+
+    font-size: 55px;
+}
+
+
+.final h2 {
+
+    margin: 15px 0;
+
+    font-size:
+        clamp(40px,6vw,70px);
+
+    line-height: 1.2;
+}
+
+
+.final h2 span {
+
+    display: block;
+
+    color: #ffe2ed;
+}
+
+
+.final p {
+
+    margin-bottom: 30px;
+}
+
+
+.final button {
+
+    border: 0;
+
+    padding: 15px 28px;
+
+    border-radius: 40px;
+
+    background: white;
+
+    color: #ed4c8c;
+
+    font-family: inherit;
+
+    font-weight: 800;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.final button:hover {
+
+    transform: scale(1.08);
+
+    box-shadow:
+        0 15px 40px
+        rgba(0,0,0,0.15);
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+    text-align: center;
+
+    padding: 35px 20px;
+
+    background: #351827;
+
+    color: white;
+}
+
+
+.footer-logo {
+
+    color: #ff73aa;
+
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+
+footer p {
+
+    margin: 8px 0;
+
+    color: #c7a9b7;
+
+    font-size: 13px;
+}
+
+
+.footer-hearts {
+
+    color: #ff5798;
+
+    letter-spacing: 7px;
+}
+
+
+/* =========================
+   SURPRISE
+========================= */
+
+.surprise {
+
+    position: fixed;
+
+    inset: 0;
+
+    display: none;
+
+    place-items: center;
+
+    background:
+        rgba(45,12,29,0.65);
+
+    backdrop-filter: blur(8px);
+
+    z-index: 2000;
+}
+
+
+.surprise.show {
+
+    display: grid;
+}
+
+
+.surprise-box {
+
+    width: min(90%,500px);
+
+    padding: 50px 35px;
+
+    text-align: center;
+
+    background: white;
+
+    border-radius: 30px;
+
+    position: relative;
+
+    animation:
+        popup 0.5s ease;
+}
+
+
+.close {
+
+    position: absolute;
+
+    left: 20px;
+
+    top: 10px;
+
+    font-size: 30px;
+
+    color: #888;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.close:hover {
+
+    color: #e83e82;
+
+    transform: rotate(90deg);
+}
+
+
+.surprise-heart {
+
+    font-size: 70px;
+
+    color: #ed4c8c;
+
+    animation:
+        heartbeat 1s infinite;
+}
+
+
+.surprise-box h2 {
+
+    margin: 15px 0;
+
+    color: #e83e82;
+}
+
+
+.surprise-box p {
+
+    color: #755466;
+
+    line-height: 2;
+
+    margin-bottom: 20px;
+}
+
+
+.surprise-box strong {
+
+    color: #e83e82;
+}
+
+
+/* =========================
+   FLOATING HEARTS
+========================= */
+
+.floating-heart {
+
+    position: fixed;
+
+    bottom: -30px;
+
+    color: #ff5c9a;
+
+    pointer-events: none;
+
+    z-index: 3000;
+
+    animation:
+        floatHeart 4s linear forwards;
+}
+
+
+/* =========================
+   ANIMATIONS
+========================= */
+
+@keyframes heartbeat {
+
+    0%,100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.12);
+    }
+}
+
+
+@keyframes sparkle {
+
+    from {
+
+        transform:
+            scale(.7)
+            rotate(0);
+
+        opacity: .4;
+    }
+
+    to {
+
+        transform:
+            scale(1.2)
+            rotate(20deg);
+
+        opacity: 1;
+    }
+}
+
+
+@keyframes popup {
+
+    from {
+
+        transform: scale(.7);
+
+        opacity: 0;
+    }
+
+    to {
+
+        transform: scale(1);
+
+        opacity: 1;
+    }
+}
+
+
+@keyframes floatHeart {
+
+    0% {
+
+        transform:
+            translateY(0)
+            rotate(0);
+
+        opacity: 1;
+    }
+
+    100% {
+
+        transform:
+            translateY(-110vh)
+            rotate(360deg);
+
+        opacity: 0;
+    }
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:768px) {
+
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        width: 94%;
+    }
+
+    .hero {
+        padding-top: 150px;
+    }
+
+    .hero-decoration {
+
+        left: 0;
+
+        opacity: .5;
+    }
+
+    .photo-container {
+
+        grid-template-columns: 1fr;
+    }
+
+    .photo-card.second {
+
+        transform: none;
+    }
+
+    .photo-card.second:hover {
+
+        transform:
+            translateY(-12px);
+    }
+
+    .photo-frame {
+
+        height: 350px;
+    }
+
+    .section-title h2 {
+
+        font-size: 35px;
+    }
+
+    .message-card {
+
+        padding: 40px 22px;
+    }
+
+    .message-card h2 {
+
+        font-size: 32px;
+    }
+
+    .hero h1 {
+
+        font-size: 48px;
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media(max-width:450px) {
+
+    .logo {
+
+        font-size: 15px;
+    }
+
+    .hero h1 {
+
+        font-size: 40px;
+    }
+
+    .small-title {
+
+        font-size: 9px;
+    }
+
+    .hero p {
+
+        font-size: 14px;
+    }
+
+    .message-card p {
+
+        font-size: 14px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     NAVBAR
+========================= -->
+
+<header>
+
+<nav class="navbar">
+
+
+    <div class="logo">
+
+        <span>♡</span>
+
+        بابا وجنى
+
+    </div>
+
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="#home">
+                الرئيسية
+            </a>
+        </li>
+
+        <li>
+            <a href="#memories">
+                ذكرياتنا
+            </a>
+        </li>
+
+        <li>
+            <a href="#message">
+                رسالتي ليكي
+            </a>
+        </li>
+
+    </ul>
+
+
+    <button
+        class="heart-btn"
+        onclick="createHeart()">
+
+        ♥
+
+    </button>
+
+
+</nav>
+
+</header>
+
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section
+    class="hero"
+    id="home">
+
+
+    <div class="hero-content">
+
+
+        <span class="small-title">
+
+            يوم مميز لبنت مميزة
+
+        </span>
+
+
+        <h1>
+
+            كل سنة وإنتي طيبة
+
+            <span>
+
+                يا أجمل جنى ❤️
+
+            </span>
+
+        </h1>
+
+
+        <p>
+
+            النهارده مش يوم عادي...
+            النهارده اليوم اللي الدنيا اتنورت فيه
+            بوجود أجمل بنت وأغلى حاجة عند بابا.
+
+        </p>
+
+
+        <a
+            href="#message"
+            class="main-btn">
+
+            شوفي رسالتي ليكي
+
+            <span>
+                ♡
+            </span>
+
+        </a>
+
+
+    </div>
+
+
+
+    <div class="hero-decoration">
+
+
+        <div class="big-heart">
+
+            ♥
+
+        </div>
+
+
+        <span class="sparkle s1">
+
+            ✦
+
+        </span>
+
+
+        <span class="sparkle s2">
+
+            ✧
+
+        </span>
+
+
+        <span class="sparkle s3">
+
+            ♡
+
+        </span>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     MEMORIES
+========================= -->
+
+<section
+    class="memories"
+    id="memories">
+
+
+    <div class="section-title">
+
+
+        <span>
+
+            أجمل ذكرياتنا
+
+        </span>
+
+
+        <h2>
+
+            صورتين...
+
+            <strong>
+
+                وحكاية عمر ❤️
+
+            </strong>
+
+        </h2>
+
+
+        <p>
+
+            حطي هنا أجمل صورتين ليكي ولجنى،
+            وخلي الموقع يحمل ذكرياتكم الجميلة.
+
+        </p>
+
+
+    </div>
+
+
+
+    <div class="photo-container">
+
+
+        <!-- PHOTO ONE -->
+
+        <div class="photo-card">
+
+
+            <div class="photo-frame">
+
+
+                <!--
+                    غير اسم الصورة هنا
+                    وحط اسم صورتك
+                -->
+
+                <img
+                    src="ahmed.jpeg"
+                    alt="صورة بابا وجنى">
+
+
+                <div class="photo-overlay">
+
+                    <span>
+                        ♥
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+            <h3>
+
+                أنا وجنى ❤️
+
+            </h3>
+
+
+            <p>
+
+                صورة هتفضل دايمًا
+                من أجمل ذكرياتي.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- PHOTO TWO -->
+
+        <div
+            class="photo-card second">
+
+
+            <div class="photo-frame">
+
+
+                <!--
+                    غير اسم الصورة هنا
+                    وحط اسم الصورة التانية
+                -->
+
+                <img
+                    src="ahmed2.jpeg"
+                    alt="صورة جنى">
+
+
+                <div class="photo-overlay">
+
+                    <span>
+                        ♥
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+            <h3>
+
+                أميرتي الصغيرة 👑
+
+            </h3>
+
+
+            <p>
+
+                أجمل ضحكة وأحلى بنت
+                في الدنيا كلها.
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     MESSAGE
+========================= -->
+
+<section
+    class="message-section"
+    id="message">
+
+
+    <div class="message-card">
+
+
+        <div class="message-icon">
+
+            ♡
+
+        </div>
+
+
+        <span class="message-label">
+
+            رسالة من بابا لبنته
+
+        </span>
+
+
+        <h2>
+
+            لجنى حبيبتي ❤️
+
+        </h2>
+
+
+        <div class="line"></div>
+
+
+        <p>
+
+            جنى حبيبتي،
+
+        </p>
+
+
+        <p>
+
+            كل سنة وإنتي طيبة يا أجمل وأحلى بنت
+            في الدنيا، وكل سنة وإنتي منورة حياتي
+            بوجودك وضحكتك.
+
+        </p>
+
+
+        <p>
+
+            عايزك تعرفي إن مهما كبرتي ومهما الأيام
+            عدت، هتفضلي دايمًا بنتي الصغيرة
+            وحبيبتي، وهفضل دايمًا فخور بيكي
+            وبكل حاجة بتعمليها.
+
+        </p>
+
+
+        <p>
+
+            أتمنى من قلبي إن كل أحلامك تتحقق،
+            وإنك تفضلي دايمًا مبسوطة وناجحة،
+            وماتخليش أي حاجة في الدنيا تخليكي
+            تشكي في نفسك أو في قيمتك.
+
+        </p>
+
+
+        <p>
+
+            وأنا مهما حصل ومهما الدنيا أخدتنا
+            فين، هفضل دايمًا جنبك.
+            أفرح لفرحك، وأقف جنبك وقت ما تحتاجيني،
+            وأفضل سند ليكي في كل خطوة في حياتك.
+
+        </p>
+
+
+        <p class="special-text">
+
+            ربنا يخليكي ليا يا جنى،
+            ويحفظك ويحققلك كل اللي نفسك فيه،
+            ويفضل قلبك دايمًا مبسوط ومليان فرحة. ❤️
+
+        </p>
+
+
+        <div class="signature">
+
+            بحبك قد الدنيا كلها
+
+            <strong>
+
+                بابا ❤️
+
+            </strong>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     FINAL
+========================= -->
+
+<section class="final">
+
+
+    <div class="final-content">
+
+
+        <div class="crown">
+
+            ♕
+
+        </div>
+
+
+        <h2>
+
+            خليكي دايمًا
+
+            <span>
+
+                مبسوطة يا أميرتي ❤️
+
+            </span>
+
+        </h2>
+
+
+        <p>
+
+            الدنيا أحلى وأجمل بوجودك فيها.
+
+        </p>
+
+
+        <button
+            onclick="birthdaySurprise()">
+
+            دوسي هنا للمفاجأة 🎁
+
+        </button>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+
+    <div class="footer-logo">
+
+        ♡ بابا وجنى ♡
+
+    </div>
+
+
+    <p>
+
+        معمول مخصوص لجنى بكل الحب من بابا ❤️
+
+    </p>
+
+
+    <div class="footer-hearts">
+
+        ♥ ♥ ♥
+
+    </div>
+
+
+</footer>
+
+
+
+<!-- =========================
+     SURPRISE POPUP
+========================= -->
+
+<div
+    id="surprise"
+    class="surprise">
+
+
+    <div class="surprise-box">
+
+
+        <span
+            class="close"
+            onclick="closeSurprise()">
+
+            ×
+
+        </span>
+
+
+        <div class="surprise-heart">
+
+            ♥
+
+        </div>
+
+
+        <h2>
+
+            كل سنة وإنتي طيبة يا جنى 🎂
+
+        </h2>
+
+
+        <p>
+
+            مهما كبرتي ومهما الأيام عدت،
+            هتفضلي دايمًا ليكي مكان خاص
+            في قلب بابا محدش يقدر ياخده.
+
+        </p>
+
+
+        <strong>
+
+            بحبك يا جنى للأبد ❤️
+
+        </strong>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script>
+
+
+/* =========================
+   SURPRISE
+========================= */
+
+function birthdaySurprise() {
+
+    const surprise =
+        document.getElementById("surprise");
+
+    surprise.classList.add("show");
+
+    createManyHearts();
+
+}
+
+
+/* =========================
+   CLOSE SURPRISE
+========================= */
+
+function closeSurprise() {
+
+    document
+        .getElementById("surprise")
+        .classList.remove("show");
+
+}
+
+
+/* =========================
+   CREATE HEART
+========================= */
+
+function createHeart() {
+
+    const heart =
+        document.createElement("div");
+
+
+    heart.classList.add(
+        "floating-heart"
+    );
+
+
+    heart.innerHTML = "♥";
+
+
+    heart.style.left =
+        Math.random() * 100 + "vw";
+
+
+    heart.style.fontSize =
+        Math.random() * 25 + 15 + "px";
+
+
+    heart.style.animationDuration =
+        Math.random() * 2 + 3 + "s";
+
+
+    document.body.appendChild(
+        heart
+    );
+
+
+    setTimeout(() => {
+
+        heart.remove();
+
+    },5000);
+
+}
+
+
+/* =========================
+   MANY HEARTS
+========================= */
+
+function createManyHearts() {
+
+    for(
+        let i = 0;
+        i < 25;
+        i++
+    ) {
+
+        setTimeout(() => {
+
+            createHeart();
+
+        }, i * 100);
+
+    }
+
+}
+
+
+/* =========================
+   AUTOMATIC HEARTS
+========================= */
+
+setInterval(() => {
+
+    if(
+        Math.random() > 0.65
+    ) {
+
+        createHeart();
+
+    }
+
+},1500);
+
+
+/* =========================
+   ESCAPE
+========================= */
+
+document.addEventListener(
+    "keydown",
+    function(event) {
+
+        if(
+            event.key === "Escape"
+        ) {
+
+            closeSurprise();
+
+        }
+
+    }
+);
+
+
+/* =========================
+   CLICK OUTSIDE POPUP
+========================= */
+
+document
+    .getElementById("surprise")
+    .addEventListener(
+        "click",
+        function(event) {
+
+            if(
+                event.target === this
+            ) {
+
+                closeSurprise();
+
+            }
+
+        }
+    );
+
+
+</script>
+
+
+</body>
+
+</html>
+```
